@@ -1,0 +1,16 @@
+#finalscore{
+    margin-top: -30%;
+    margin-bottom: 10%;
+    color: rgb(5, 121, 167) ;
+}
+#q{
+    
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#highscoreslist{
+    list-style: none;
+    margin-bottom: 5%;
+    
+}

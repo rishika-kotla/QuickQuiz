@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #save ,#save1, #save2{
+        width: 60%;
+    }
+    input{
+        width: 60%;
+        margin-bottom: 7%;
+        margin-top: 4%;
+        border: none;
+        background-color: white;
+        padding:2%;
+        font-size: larger;
+
+    }
+    .end
+    {
+        color:rgb(10, 169, 231) ;
+        display: flex;
+        flex-direction: column;
+    }
+    .finalscore{
+        font-size: 60px;
+        justify-content: center;
+    }
+   
+    button{
+        border: none;
+        background-color: white;
+    }
+    button:hover{
+        background-color: rgb(10, 169, 231);
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="end question-container question">
+            
+            <form>
+                <h1 class="finalscore" id="final">0</h1>
+                <input type="text" id="username" placeholder="username">
+                <Button type="submit" class="btn saveme" id="save" onclick="savehighscore(event)" disabled>Save</Button>
+            </form>
+            <a href="./game.html" ><button class="btn" id="save1">Play Again</button></a>
+            <a href="homepage.html"><Button  class="btn" id="save2">Home</Button></a>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./end.js"></script>
+</body>
+</html>
